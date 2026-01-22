@@ -8,7 +8,6 @@ EMAIL: drakes1@uci.edu
 
 <head>
   <meta charset="utf-8">
-  <base href="/GreasySponge.github.io/">
   <meta name="author" content="Drake Smith">
   <meta name="description" content="XR, 3D, 2D Portfolio">
   <meta name="viewport" content="width=device-width,initial-scale=1">
@@ -180,7 +179,7 @@ EMAIL: drakes1@uci.edu
                   document.querySelector("#unity-fullscreen-button").onclick = () => {
                       unityInstance.SetFullscreen(1);
                   };
-              }).catch((message) => { error(message); });
+              }).catch((message) => { console.error(message); });
           };
           document.head.appendChild(script);
       }

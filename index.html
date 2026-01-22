@@ -14,11 +14,11 @@ EMAIL: drakes1@uci.edu
   <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
   <link rel="stylesheet" href="TemplateData/style.css">
   <link rel="stylesheet" href="index.css">
-  <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96">
-  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
-  <link rel="shortcut icon" href="/favicon.ico">
-  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-  <link rel="manifest" href="/site.webmanifest">
+  <link rel="icon" type="image/png" href="favicon-96x96.png" sizes="96x96">
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="shortcut icon" href="favicon.ico">
+  <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+  <link rel="manifest" href="site.webmanifest">
   <title>Drake's Software Engineering</title>
 </head>
 <body>
@@ -151,14 +151,14 @@ EMAIL: drakes1@uci.edu
           var loaderUrl = buildUrl + "/a1-portfolio-GreasySponge.loader.js";
           var config = {
               arguments: [],
-              dataUrl: buildUrl + "/a1-portfolio-GreasySponge.data.br",
-              frameworkUrl: buildUrl + "/a1-portfolio-GreasySponge.framework.js.br",
-              codeUrl: buildUrl + "/a1-portfolio-GreasySponge.wasm.br",
+              dataUrl: buildUrl + "/a1-portfolio-GreasySponge.data",
+              frameworkUrl: buildUrl + "/a1-portfolio-GreasySponge.framework.js",
+              codeUrl: buildUrl + "/a1-portfolio-GreasySponge.wasm",
               streamingAssetsUrl: "StreamingAssets",
               companyName: "DefaultCompany",
               productName: "DormRoomOne",
               productVersion: "0.1.0",
-              decompressionFallback: true,
+              decompressionFallback: false,
           };
 
           if (/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)) {

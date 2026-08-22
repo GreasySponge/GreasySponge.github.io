@@ -1,0 +1,10 @@
+{
+  "description": "Showcase projects with interactive carousels and detailed descriptions in a sleek dark-themed portfolio designed for seamless GitHub Pages hosting.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}
